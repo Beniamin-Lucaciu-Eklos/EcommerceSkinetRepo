@@ -19,7 +19,6 @@ public sealed class ProductRepository(StoreDbContext dbContext) : IProductReposi
     {
         dbContext.Remove(product);
     }
-
     public bool Exists(int id)
     {
         return dbContext.Products.Any(p => p.Id == id);
