@@ -1,0 +1,164 @@
+[
+    {
+        "Name": "Angular Speedster Board 2000",
+        "Description": "A lightweight 8.25-inch maple deck built for speed and street control. Features a medium concave, grippy matte grip tape and high-rebound trucks, making it a great all-rounder for park and street riding.",
+        "Price": 200,
+        "PictureUrl": "https://images.unsplash.com/photo-1547447134-cd3f5c716030?fm=jpg&q=70&w=800&auto=format&fit=crop",
+        "Type": "Boards",
+        "Brand": "Angular",
+        "QuantityInStock": 82
+    },
+    {
+        "Name": "Green Angular Board 3000",
+        "Description": "7-ply Canadian maple deck with a bold green finish. Slightly narrower at 8 inches, it flips easily and suits riders who focus on technical tricks.",
+        "Price": 150,
+        "PictureUrl": "https://images.unsplash.com/photo-1536318431364-5cc762cfc8ec?fm=jpg&q=70&w=800&auto=format&fit=crop",
+        "Type": "Boards",
+        "Brand": "Angular",
+        "QuantityInStock": 75
+    },
+    {
+        "Name": "Core Board Speed Rush 3",
+        "Description": "Performance deck with 90A urethane wheels and precision ABEC-9 bearings. Designed for fast downhill cruising and smooth carving on rough pavement.",
+        "Price": 180,
+        "PictureUrl": "https://images.unsplash.com/photo-1688318421222-1a592eb1fdfb?fm=jpg&q=70&w=800&auto=format&fit=crop",
+        "Type": "Boards",
+        "Brand": "NetCore",
+        "QuantityInStock": 3
+    },
+    {
+        "Name": "Net Core Super Board",
+        "Description": "Our premium carbon-fiber reinforced deck. Extremely durable yet light, with a responsive pop and a stable 8.5-inch platform. Ideal for advanced riders and competitions.",
+        "Price": 300,
+        "PictureUrl": "https://images.unsplash.com/photo-1520045892732-304bc3ac5d8e?fm=jpg&q=70&w=800&auto=format&fit=crop",
+        "Type": "Boards",
+        "Brand": "NetCore",
+        "QuantityInStock": 52
+    },
+    {
+        "Name": "React Board Super Whizzy Fast",
+        "Description": "Race-ready complete board with 52mm wheels, low-profile trucks, and a stiff 9-ply construction. Built to hold speed through long pushes and tight transitions.",
+        "Price": 250,
+        "PictureUrl": "https://images.unsplash.com/photo-1597019558926-3eef445fdf60?fm=jpg&q=70&w=800&auto=format&fit=crop",
+        "Type": "Boards",
+        "Brand": "React",
+        "QuantityInStock": 97
+    },
+    {
+        "Name": "Typescript Entry Board",
+        "Description": "A beginner-friendly complete skateboard with a forgiving 8-inch deck, soft 99A wheels and pre-assembled trucks. Everything you need to learn the basics out of the box.",
+        "Price": 120,
+        "PictureUrl": "https://images.unsplash.com/photo-1499083773823-5000fa2b23e4?fm=jpg&q=70&w=800&auto=format&fit=crop",
+        "Type": "Boards",
+        "Brand": "Typescript",
+        "QuantityInStock": 37
+    },
+    {
+        "Name": "Core Blue Hat",
+        "Description": "Classic six-panel cotton baseball cap in royal blue with an embroidered logo on the front and an adjustable strap at the back. One size fits most.",
+        "Price": 10,
+        "PictureUrl": "https://images.unsplash.com/photo-1576871337632-b9aef4c17ab9?fm=jpg&q=70&w=800&auto=format&fit=crop",
+        "Type": "Hats",
+        "Brand": "NetCore",
+        "QuantityInStock": 32
+    },
+    {
+        "Name": "Green React Woolen Hat",
+        "Description": "Warm knitted beanie made from soft acrylic-wool blend. Fold-over cuff and a woven React label keep your ears cozy on cold winter sessions.",
+        "Price": 8,
+        "PictureUrl": "https://images.unsplash.com/photo-1510598969022-c4c6c5d05769?fm=jpg&q=70&w=800&auto=format&fit=crop",
+        "Type": "Hats",
+        "Brand": "React",
+        "QuantityInStock": 6
+    },
+    {
+        "Name": "Purple React Woolen Hat",
+        "Description": "Stretchy ribbed beanie in deep purple with a fleece lining for extra warmth. Fits snugly under a helmet and washes well in the machine.",
+        "Price": 15,
+        "PictureUrl": "https://images.unsplash.com/photo-1618354691792-d1d42acfd860?fm=jpg&q=70&w=800&auto=format&fit=crop",
+        "Type": "Hats",
+        "Brand": "React",
+        "QuantityInStock": 17
+    },
+    {
+        "Name": "Blue Code Gloves",
+        "Description": "Padded riding gloves with reinforced palms and breathable mesh on the back of the hand. Touchscreen-compatible fingertips let you use your phone without taking them off.",
+        "Price": 18,
+        "PictureUrl": "https://images.unsplash.com/photo-1549396555-3d107fd70c85?fm=jpg&q=70&w=800&auto=format&fit=crop",
+        "Type": "Gloves",
+        "Brand": "VS Code",
+        "QuantityInStock": 74
+    },
+    {
+        "Name": "Green Code Gloves",
+        "Description": "Insulated winter gloves with a water-resistant shell and silicone grip on the fingers. Elastic cuffs seal out the cold and the wind.",
+        "Price": 15,
+        "PictureUrl": "https://images.unsplash.com/photo-1611690889004-c009a7e03712?fm=jpg&q=70&w=800&auto=format&fit=crop",
+        "Type": "Gloves",
+        "Brand": "VS Code",
+        "QuantityInStock": 19
+    },
+    {
+        "Name": "Purple React Gloves",
+        "Description": "Lightweight fingerless gloves with gel-padded palms to absorb vibration and protect from scrapes. Ideal for warm days and long rides.",
+        "Price": 16,
+        "PictureUrl": "https://images.unsplash.com/photo-1689054508287-308f70b87131?fm=jpg&q=70&w=800&auto=format&fit=crop",
+        "Type": "Gloves",
+        "Brand": "React",
+        "QuantityInStock": 77
+    },
+    {
+        "Name": "Green React Gloves",
+        "Description": "Durable synthetic leather gloves with double-stitched seams and wrist guards. Offers solid protection while keeping full dexterity for board handling.",
+        "Price": 14,
+        "PictureUrl": "https://images.unsplash.com/photo-1549719386-74dfcbf7dbed?fm=jpg&q=70&w=800&auto=format&fit=crop",
+        "Type": "Gloves",
+        "Brand": "React",
+        "QuantityInStock": 45
+    },
+    {
+        "Name": "Redis Red Boots",
+        "Description": "High-top skate shoes in vibrant red with a suede upper, padded collar and vulcanized gum-rubber sole. Extra ankle support and excellent board feel.",
+        "Price": 250,
+        "PictureUrl": "https://images.unsplash.com/photo-1606036525923-525fa3b35465?fm=jpg&q=70&w=800&auto=format&fit=crop",
+        "Type": "Boots",
+        "Brand": "Redis",
+        "QuantityInStock": 49
+    },
+    {
+        "Name": "Core Red Boots",
+        "Description": "Hard-wearing leather boots with a reinforced toe cap and shock-absorbing EVA insole. Triple-stitched for longevity, even with heavy griptape wear.",
+        "Price": 189.99,
+        "PictureUrl": "https://images.unsplash.com/photo-1575987116913-e96e7d490b8a?fm=jpg&q=70&w=800&auto=format&fit=crop",
+        "Type": "Boots",
+        "Brand": "NetCore",
+        "QuantityInStock": 28
+    },
+    {
+        "Name": "Core Purple Boots",
+        "Description": "Cushioned mid-top boots with a breathable mesh lining and a grippy cupsole outsole. Comfortable from the first ride, with no break-in needed.",
+        "Price": 199.99,
+        "PictureUrl": "https://images.unsplash.com/photo-1593032470861-4509830938cb?fm=jpg&q=70&w=800&auto=format&fit=crop",
+        "Type": "Boots",
+        "Brand": "NetCore",
+        "QuantityInStock": 69
+    },
+    {
+        "Name": "Angular Purple Boots",
+        "Description": "Casual low-profile boots in purple canvas with a vulcanized rubber sole and padded tongue. A lightweight choice for everyday wear and light skating.",
+        "Price": 150,
+        "PictureUrl": "https://images.unsplash.com/photo-1449505278894-297fdb3edbc1?fm=jpg&q=70&w=800&auto=format&fit=crop",
+        "Type": "Boots",
+        "Brand": "Angular",
+        "QuantityInStock": 35
+    },
+    {
+        "Name": "Angular Blue Boots",
+        "Description": "Waterproof blue boots with a sealed-seam upper and anti-slip tread. Keeps feet dry in wet conditions while still giving a good grip on the board.",
+        "Price": 180,
+        "PictureUrl": "https://images.unsplash.com/photo-1600100315778-850119b19220?fm=jpg&q=70&w=800&auto=format&fit=crop",
+        "Type": "Boots",
+        "Brand": "Angular",
+        "QuantityInStock": 27
+    }
+]
