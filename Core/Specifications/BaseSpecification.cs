@@ -16,6 +16,12 @@ public class BaseSpecification<TEntity>(Expression<Func<TEntity, bool>>? criteri
 
     public bool IsDistinct { get; private set; }
 
+    public int Take { get; private set; }
+
+    public int Skip { get; private set; }
+
+    public bool IsPagingEnabled { get; private set; }
+
     protected void AddOrderBy(Expression<Func<TEntity, object>> orderByExpression)
     {
         OrderBy = orderByExpression;
@@ -29,6 +35,23 @@ public class BaseSpecification<TEntity>(Expression<Func<TEntity, bool>>? criteri
     protected void ApplyDistinct()
     {
         IsDistinct = true;
+    }
+
+    protected void ApplyPaging(int skip, int take)
+    {
+        Skip = skip;
+        Take = take;
+        IsPagingEnabled = true;
+    }
+
+    public IQueryable<TEntity> ApplyCriteria(IQueryable<TEntity> query)
+    {
+        if (Criteria is not null)
+        {
+            query = query.Where(Criteria);
+        }
+
+        return query;
     }
 }
 

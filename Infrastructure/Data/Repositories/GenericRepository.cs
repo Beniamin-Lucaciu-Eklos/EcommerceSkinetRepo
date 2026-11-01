@@ -64,6 +64,15 @@ public class GenericRepository<TEntity>(StoreDbContext dbContext)
         return SpecificationEvaluator<TEntity>.GetQuery<TEntity, TResult>(query, specification);
     }
 
+    public async Task<int> CountAsync(ISpecification<TEntity> specification, CancellationToken cancellationToken = default)
+    {
+        var query = dbContext.Set<TEntity>().AsQueryable();
+        
+        query  = specification.ApplyCriteria(query);
+
+        return await query.CountAsync(cancellationToken);
+    }
+
     public void Remove(TEntity entity)
     {
         dbContext.Set<TEntity>().Remove(entity);

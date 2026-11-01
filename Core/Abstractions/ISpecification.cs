@@ -12,6 +12,13 @@ public interface ISpecification<TEntity>
     Expression<Func<TEntity, object>>? OrderByDescending { get; }
 
     bool IsDistinct { get; }
+
+    int Take { get; }
+    int Skip { get; }
+
+    bool IsPagingEnabled { get; }
+
+    IQueryable<TEntity> ApplyCriteria(IQueryable<TEntity> query);
 }
 
 public interface ISpecification<TEntity, TResult> : ISpecification<TEntity>

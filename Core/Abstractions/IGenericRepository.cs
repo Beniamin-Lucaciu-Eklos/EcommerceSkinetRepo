@@ -26,4 +26,6 @@ public interface IGenericRepository<TEntity>
     Task<bool> SaveAllAsync();
 
     bool Exists(int id);
+
+    Task<int> CountAsync(ISpecification<TEntity> specification, CancellationToken cancellationToken = default);
 }
