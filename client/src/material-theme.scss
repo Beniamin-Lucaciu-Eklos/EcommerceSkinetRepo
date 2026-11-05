@@ -22,6 +22,19 @@
   border-right-style: none !important;
 }
 
+.snack-error {
+  @include mat.snack-bar-overrides((button-color: white,
+      container-color: red,
+      supporting-text-color:white));
+}
+
+.snack-success {
+  @include mat.snack-bar-overrides((button-color: white,
+      container-color: green,
+      supporting-text-color:white));
+}
+
+
 html {
   height: 100%;
   @include mat.theme((color: (primary: mat.$azure-palette,
